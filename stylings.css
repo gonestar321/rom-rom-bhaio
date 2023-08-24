@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(40,0,0,0.5),rgba(40,0,0, 0.5)), url(./459-background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box{
+    size: 150%;
+    width: 50%;
+    max-width: 275px;
+    max-height: 275;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    
+    transform: translate(-50,-50);
+    background: #fff;
+    padding: 20px 30px 30px;
+    text-align: center;
+}
